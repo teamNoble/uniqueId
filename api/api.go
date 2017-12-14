@@ -18,5 +18,5 @@ func setupRouter() *gin.Engine {
 
 func main() {
 	r := setupRouter()
-	r.Run(":6666")
+	r.Run(":12580")
 }
