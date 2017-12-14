@@ -39,10 +39,6 @@ func getPid() int32 {
 	return int32(os.Getpid())
 }
 
-func getTime() int64 {
-	return time.Now().Unix()
-}
-
 func getMachineBytes() []byte {
 	var id [3]byte
 	ret := id[:]
