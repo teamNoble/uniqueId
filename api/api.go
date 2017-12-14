@@ -11,7 +11,7 @@ func setupRouter() *gin.Engine {
 	r := gin.Default()
 
 	r.GET("/id", func(c *gin.Context) {
-		c.String(200, backend.Prase())
+		c.String(200, backend.Parse())
 	})
 	return r
 }

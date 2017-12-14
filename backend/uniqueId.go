@@ -9,7 +9,7 @@ import (
 	"encoding/binary"
 )
 
-func Prase() string {
+func Parse() string {
 	var buf [12]byte
 	//time
 	binary.BigEndian.PutUint32(buf[:], uint32(time.Now().Unix()))
